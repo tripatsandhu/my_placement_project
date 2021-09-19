@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <title>{% block title %}{{title}}{% endblock title %}</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+
+      </head>
+
+<!-- Navbar starts -->
+    <body>
+      <nav class="navbar navbar-light" style="background-color: #4267b2;">
+        <a class="navbar-brand"  style ="color: #fff;text-align: center;"href="/">Diabetes-classification Project Using Machine Learning</a>  
+      </nav>
+<!-- Navbar ends -->
+
+{% block content %}
+<!-- page content -->
+{% endblock content %}
+
+<!-- Footer -->
+<footer class="page-footer font-small black">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Made by :-
+    <a href="https://www.linkedin.com/in/tripatdeep/">Tripatdeep Singh</a>
+  </div>
+  <!-- Copyright -->
+

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %} Tripatdeep's Project {% endblock title %}
+{% block content %}
+
+    <h2 class = "para ">Please Enter the fields below to check whether you are likey to be Diabetic or Non-Daibetic in future</h2>
+
+<div class="center" >
+    <p id = "require">All fields are required:-</p>
+
+    <form action="/predict", method = "post" autocomplete="off" required>
+        <p><input type="text" name="Pregnancies" placeholder="No. of Pregnancies (eg:-1,2,3...etc)" required ></p>
+        <p><input type="text" name="Glocose" placeholder="Blood Glucose level (in mmol/L)" ></p>
+        <p><input type="text" name="BloodPressure" placeholder="Blood Pressure (in mmHg)" required></p>
+        <!--<p><input type="text" name="SkinThickness" placeholder="Skin Thickness (in mm)" required ></p>-->
+        <!--<p><input type="text" name="Insulin" placeholder=" Blood Insulin Levels (in IU/ml) " required ></p>-->
+        <p><input type="text" name="BMI" placeholder="BMI (Body Mass Index (in digits))" required ></p>
+        <p><input type="text" name="Diabetes Pedigre Function "  placeholder="Diabetes Pedigree Function (0-1)" required></p>
+        <p><input type="text" name="Age" placeholder="Age (in digits))"  required ></p>
+        <p><input class = "button" type=  "submit" value= PREDICT ></p>
+        <br><br>
+    <p id ="output">{{pred}}</p>
+    </form>
+</div>
+<div class= "custom-center">
+    <a href="https://github.com/tripatsandhu/my_placement_project" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">View source code</a>
+</div>
+{% endblock content %}

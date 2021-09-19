@@ -1,0 +1,83 @@
+.center {
+    margin: auto;
+    margin-top: 2rem;
+    width: 60%;
+    border: 2px solid #898f9c;
+    border-radius: 20px;
+    background-color:#4267b2;
+
+}
+.custom-center{
+    margin: auto;
+    text-align: center;
+    padding-top: 20;
+
+}
+.btn{
+    color:#4267b2;
+}
+.button{
+    margin: auto;
+    width: 100px;
+    outline-color:#4267b2;
+    border-radius: 10px;
+}
+#require{
+    margin: auto;
+    font-size :25px;
+    color:#fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#output{
+    font-size :25px;
+    color:#fff;
+    padding-top:15px;
+
+}
+
+input{
+    width: 80%;
+}
+body{
+    background:#D3D3D3;
+}
+footer{
+    margin-top: 2rem;
+    background-color:#898f9c;
+}
+p{
+    text-align: center;
+}
+.para{
+    font-size: 30px;
+    text-align: center;
+    color:#fff;
+    padding-top:40px;
+    padding-bottom:20px;
+    text-shadow: 2px 2px 4px #000000
+}
+h3{
+    text-align: center;
+}
+input[type=text]{
+    border-radius: 7px;
+    height: 35px;
+    border-color:#fff;
+}
+.page-footer{
+    background-color:#4267b2;
+}
+.footer-copyright{
+    color: #000;;
+}
+.footer-copyright a{
+    color:#fff;
+}
+.navbar {
+    background-color:#4267b2;
+    text-align:center;
+}
+.navbar-brand {
+    color:#fff;
+}
